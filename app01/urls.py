@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^coursedetail/(?P<pk>\d+)/$', coursedetail.CourseDetailView.as_view({'get':'retrieve'})),
 
     # url(r'^course/$', coursedetail.CourseView.as_view({'get':'list'})),
+    # url(r'^course/$', coursedetail.CourseView.as_view({'get':'list'})),
     url(r'^course/$', coursedetail.CourseView.as_view()),
 ]
 
